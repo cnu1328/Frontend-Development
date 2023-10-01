@@ -1,0 +1,25 @@
+.card{
+    background-color: rgb(190, 241, 241);
+    height : 30px;
+    width  : 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.paragraph{
+    font-family:'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+}
+.bg-container{
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202209/prashantkishor_1200x768.jpeg?lwCHNnNpkUUxExtcBreZ0UqeZGglUMiw&size=770:433");
+    height: 10vh;
+    width: 15vw;
+    background-size:cover;
+
+}
+.card1{
+    background-color:rgb(253, 235, 235);
+    height : 50vh;
+    
+}

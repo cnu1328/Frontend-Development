@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* ################ Default ################# */
+
+nav{
+    display: block;
+}
+
+.body{
+    line-height:1;
+    margin:0;
+    
+}
+
+
+/* ############  Nav BAR ######################### */
+
+
+.navbar{
+    width: 100%;
+    margin:0;
+}
+
+.unorderlist{
+    background-color: black;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+
+.list{
+    list-style: none;
+    float:left;
+    padding-right: 15px;
+}
+
+.listright{
+    float:right;
+}
+
+.listanchor{
+    display:block;
+    font-size: 4vh;
+    text-decoration: none;
+    color:#fff;
+    font-family:"Roboto";
+    text-align:center;
+    padding: 8px;
+    
+    margin: 5px;
+    
+}
+
+.navimg{
+    height: 50px;
+    float:right;
+}
+
+.menudesign{
+    border-color: #fff;
+    border-style:solid;
+    border-width: 1px;
+    text-align: center;
+    padding-right:15px;
+    padding-left:15px;
+
+}
+
+.signindesign{
+    background-color: rgb(250, 179, 49);
+    color: black;
+    border-color: rgb(224, 144, 115);
+    border-style:solid;
+    border-width: 3px;
+    text-align: center;
+}
+
+.search_box{
+    display:flex;
+    margin:auto 0;
+    height:35px;
+    line-height: 35px;
+    padding-top: 10px;
+
+}
+
+.searchinput{
+    border:none;
+    outline:none;
+    background: rgb(126, 126, 125);
+    
+    height:100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.searchinputspan{
+    color: #0a5071;
+    font-size: 20px;
+    background-color: #fff;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer
+    
+}
+
+nav .search_box span::after{
+    height:100%;
+    width:0;
+    content: '';
+    background: #ff003c;
+    position: absolute;
+    right:0;
+    top:0;
+    left:0;
+}

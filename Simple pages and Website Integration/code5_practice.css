@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.movie-page-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+    height : 130vh;
+    background-size: cover;
+    padding: 20px;
+    
+}
+
+.movie-page-text-container{
+    margin: 15px;
+}
+
+.movie-page-text-container-heading{
+    font-family: "Roboto";
+    color : white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.movie-page-text-container-button{
+    color: #ff8348;
+    background-color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+.movie-page-text-container-paragraph{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.coursel-card{
+    height: 350px;
+    width: 600px;
+    
+}
+
+.movie-page-text-container-paragraph1{
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.movie-page-similar-movies{
+    padding: 15px;
+}
+

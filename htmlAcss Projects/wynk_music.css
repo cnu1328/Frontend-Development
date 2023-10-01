@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.wynk-bg-container{
+    background-image: url("https://wallpaperaccess.com/full/1595904.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.image{
+    height : 25px;
+     width  : 25px;
+}
+
+.wynk-bg-container-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.wynk-search-container{
+    background-color: #403939;
+    border-radius: 10px;
+    padding: 10px;
+    margin : 15px;
+}
+
+.wynk-search-container-heading{
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: #aba6a6;
+}
+
+.wynk-element-container-item{
+    background-color: #403939;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    height: 100px;
+    width: 150px;
+}
+
+.wynk-element-container-item-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding : 0px;
+}
+
+.wynk-element-container-item-para{
+    color: gray;
+}

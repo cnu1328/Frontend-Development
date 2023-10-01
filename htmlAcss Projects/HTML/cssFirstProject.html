@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>My CSS Website</title>
+    <link rel = "stylesheet" href="cssFirstProject.css">
+</head>
+
+<body class = "body">
+    <nav class = "navbar" id="dropdownClick">
+        <ul class = "unorderlist">
+            <li class = "list"><a href= "#home" class = "listanchor active">Home</a></li>
+            <li class = "list"><a href= "#news" class = "listanchor">News</a></li>
+            <li class = "list"><a href= "#contact" class = "listanchor">Contact</a></li>
+            <li class = "list"><a href= "#about" class = "listanchor">About</a></li>
+            <li class = "list listright"><a href= "#signup" class = "listanchor">Signup</a></li>
+            <li class = "list listright"><a href= "#signin" class = "listanchor">Signin</a></li>
+            <li class = "dropdownIcon"><a href = "javascript:void(0);" class="dropdownIcondesign"
+                onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                   <h1 class="larger">Crazy Radness</h1>
+                   <h1 class="larger">Made for Developers</h1> 
+                </div>
+                <form>
+                    <div class="leftSide-col">
+                        <h2 class="texthead">Username</h2>
+                        <input class="inputbox" type="text" placeholder="username">
+                        <h2 class="texthead">password</h2>
+                        <input class="inputbox" type="text" placeholder="password">
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="Submit" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <div class="vedioContainer">
+                        <iframe class="vediocontaineriframe" width="560" height="315" src="https://www.youtube.com/embed/eTFxLVyM-g4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <header>
+        <h1 class="section2Header">The Standards of Awesomeness</h1>
+    </header> 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="Icon">
+                        <img src="https://pbs.twimg.com/media/CxAUcPfXEAAJxZA.jpg" class="img">
+                    </div>
+                    <label class="labelhead">Chat with me</label>
+                    <p class="para">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="Icon">
+                        <img src="https://pbs.twimg.com/media/CxAUcPfXEAAJxZA.jpg" class="img">
+                    </div>
+                    <label class="labelhead">Learn to Code</label>
+                    <p class="para">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box">
+                    <div class="Icon">
+                        <img src="https://pbs.twimg.com/media/CxAUcPfXEAAJxZA.jpg" class="img">
+                    </div>
+                    <label class="labelhead">Build an Empire</label>
+                    <p class="para">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnmore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <!--  it is used for comment, blog post and news article  -->
+                    <p class="articlepara">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book.
+                    </p>
+                </article>  
+            </div>
+            <div class="col-5">
+                <div class="slopeicon">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxESEBAQEBITFRAXDxAOFREVEhcXFRAPFRUYFxUWExcYHSggGBolHhUWIjEhJikrLi46Fx8zODMsNygtLisBCgoKDg0OGxAQGy0lICYtLS0tLy8tLS0rLS0tLy8vLS0tLS0tLS0rLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwEDBAUGAgj/xABNEAABAwICBAgGDgkDBQEAAAABAAIDBBEFEgYhMUEHEyJRUmFxkTI1c4GT0hQWFzNTVGJykqGxs8PRI0JDdIKUosHisrTCFTRj4fEk/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAEDBQQCBv/EADgRAAIBAgMFBQYEBgMAAAAAAAABAgMRBCExBRJRgbEyQXGR0RMzNGFyoSJS4fAUFSNCwdJigpL/2gAMAwEAAhEDEQA/AJxREQBFi11WyGKSaQ2YxjpHHmaBfzleRiERh9kZhxPFcdn3cXlzX7kJs7XMxFEuDaYy/wDUTVShzaOoeaVt/BY2MjIe1pfyvKO5tUtLxCamsi/E4adCSUu9X9V4p5MIiL2c4REQBERAEREARWqiYMaXHYBdYDGSycp7yxp1hjQL2+U4319n1oDaItf7C+XJ9Mp7CHTk+mUBsEWpngymMDjnZn5CWvFoxlcc77kcnkgarm7hqV72GOnJ9MoDYItf7DHTk+mVQ0jv1ZXg9dnDz3CA2KLBpKl2YxyWzjXcbHN5x+SzkAREQBEWtxDGaeD32VjT0b3d9Ea/qUNpZsmMZSe7FXZskXC4lwgMFxTxF3y5DYeZo1nvC5bEtJaqe4dK4N6DOQ36tZ85KpliIrTM0qOycRPOVor56+S/zYk3EcepoLiWVod0Byn/AEW3I865fEeELaKeL+KQ/wDFv5rgwioliJvTI1aOyKEM5Xk/nkvJerRs8S0hqp78bM7L0G8ltuazdvnutYiKltvU04QjBWikvDIIi8OlA3qD0e0WM6p5h3rxxzudSRc+hkRajSbGWUlNJUO1losxvTlOpre/bzAErTbtmfCxi5NRjm3kcnp1Vvq6iHCac+E9sk7xsY0coB3YOXbnyDeuXL6wXwEbfZVg/X7weV6P9p3hdLonH7Do58Vq7unmDpBfU4scczWi+wvcb9mXmWVwc4Y9/G4nUa5qguLPkwk7RzA2AHU0c65mt9p8ehtqrHD05RVnGGS+dTVtfJZ8kuJs8a0Sikw4UUYAMbAYXH4ZoOtx+VdwPzisfg6xx00Bp5riogPEuDvCMYuGuPWLFp629a7FRzpdA7D66LE4QeKe7ip2DeXbT/EBf5zBzq2a3WpLwfh+hwYduvF0Jav8Ufq71/2X3sSMisUtQ2RjJI3BzHNa9rhsc1wuCPMr6tOEIiIAiIgCIiA12MnksHPJGPNmCyysLGT715WP/UFDGnWM1bMSrGR1VQxglaGsZPI1rRxbNTWh1ggJ0WIyiAnfPnkJdEyLiy8mJoaXHM1mwOOaxO+wXz17YK345VfzMvrJ7YK345VfzMvrICf5MHBJPHVIuSbCoeAL7gL6gsukp+LblDnu1k3e8vdr6yvnX2wVvxyq/mZfWT2wVvxyq/mZfWQH0gi+b/bBW/HKr+Zl9ZPbBW/HKr+Zl9ZAfQdUbTQnqe3zaitko5pMefBhmHVD800js7Lvebk8uxc43J1NWqxHS+smuBJxbejEMv8AV4X1qqpVjDJndhdn1cQt6NktLv01JNr8UggF5pWM32J5R7GjWVy+I6fxC4gjc89J/Jb2gbT9Sj1ziSSTcnWSdZJ6yqLnliJPTI2KOx6MM5tyfkvtn9zd4jpVWS3BkLB0I+QO8co+crSE/miKhtvU1KdOFNbsEkvlkEReXPA2lQez0ix3VPMO9WXSk70IMt0gG0q06p5h3rHRSD26QnaV4REICIvPGt5x3oD6MUXaQV8VficdNJJGyip3OdI58jWtleNTwCTrN7N7MxUmyszNc25FwRcGxF94O4rkvc2w7oS+mctCrGUlZHyOCq0qUnKbadrKyTtfvzaz4efcc9pRicNfWw0QmjZRRkSyycY1rHuA1hjibGwIaLb3OO5d3DjdC1rWtqqYNADQBPHYNGoAcpaX3NsO6EvpnJ7m2HdCT0rl5SqJt5Z/MtqTwk4xhvTSivyrV6t/i1fob72wUXxum9PH6ywcXrqCphlp5KqmLHsLT+nju07nDlbQbEdi1/ubYd0JfTOT3NsO6EvpnKf6nBFajhE7qc//ACv9jV8GmMZXS4dI9rnRue6F7XBzXxg8oMIJBGsOA5nHoqRVylDoHRQysmibI2Rrg9ruNdqI6r6xuI33XVqaaaVmV4ypSqVd+nfPW6Sz73k3rr0CIisOUIiIAiIgNbjH7Pysf+oKCeEHxrXeWb90xTrjB1xeUZ9qgrhB8aV3lm/dMQGtwbCZqudlPA3NI651mzWtG1zzuaPyGskBSNT8EAyjjKw5t+SHUOy7taxuBCMcdWvI1iKBoPMHOkJ/0N7lINZirjkMIvHx8DHykHK4PlazLF0jyvCGoc5OyVFvQhtI4z3H4/jb/RN9ZDwPx/G3+ib6ykDEqsxhoYA6V7xFG0mwzWJJceiGtcT2W2lWjR1NswqbydExM4m/zRywP40tlckhrS/QGehZx4eJqe4Dnhpa6Mk2Gdtzyb2Fwd+wLkF9DYtMKjDa0Pbld7HqoZGXvkkaxwNjvGxwOq4IOpfPAUAkysYTgmGEbA95PYeMH2kLRLfVTgMDw4HaS4DrOZ5+wFaAuA2lcOI7fI+n2N8O/F9EVRWHVA3a1ZdM49XYqTVMxzwNpVh1SNwWOiC5cdM47+5W0RCAiLw+Vo2lAe0WK+q5h3qw+UnaUJM58zRvWO+q5h3qwqID0+QnaVRURAfTqIi1D4MIiIAiIgCIiAIityyBoLnEADWSTYDtKAuIucxHTGkiuA8yu5oxcfSPJ+tcriOnlQ+4ha2JvP4T+86h3KqVaC7zuo7OxFXNRsuLy/X7EjzzNYC57mtaNrnEADtJXO4jptSR3DS6V3yByfpHVbsuo0rKyWV2aWR7jzucTbsvs8ysKiWJfcalHYsFnVlf5LJeevQ7Kn0tmqqumiLGMiMhJaLlxytLhdx6wNgCj/hB8aV3lm/dMW80eNq2lt8MB5jcH7Vo+EDxpXeWb90xXUJOUbsztqUYUqqjBWVl1Z1/Ab75X/MpftmUjY/70z97ov8AcxqOOA0/pK/5lL9sqkTSU/oY/wB8oP8AdRK+Ls0zOtfIrUu//bTN3exqx/8AEH07Qe57u9bVafGmuYYqhrS7inOD2NF3up3iz8gGskEMdYazkIAJIXs49Shmf2RERsFnguLuiGjlF3yQL9Sg9KEmlZXNdXNszGANhiLz840oafqY1fPjdg7F9BSROFDiE8rSx80dROWHbHGIckbTzHJG0kbi5y+fW7B2IJ9ry6EjYs62CYXb4V34y5hdNi/iTC/Ku/GXMrhxHbPpdkfD82EReXvA2lUmoekWM+qG4d6sPmcd/chJnPkA2lY76rmHesdUQHt8zjtK8qiIAiIgCIiAIiID6dREWofBhEVLoCqLR4hpTSQ3DpQ53RjOc35iRqHnK5XEuEGR1xTxtaOk85nfRGofWq5VYR1Z2UcBiKucY5cXl1JDc4AXJsNtzuWixLS2jhuOM4x3Rj5X9XgjvUY1+Kzzn9LK93UTyR2NGodyw1RLEv8AtRqUdiRWdWV/ksvu/Q7DEdPpjcQMbGOk7lv/ACHcVzFdiM0xvNI95+UdQ7BsHmWMiolOUtWa1HDUqPu4pdfN5hEReC8IrTp2jr7FZdUHdqQg3GAf97S+Xb/daThA8aVvlW/dMWw0bcTX0l/hx/da7hA8aVvlW/dMXdh+zzPmds+/X0rqy5oLpN7AquMc0uhe3ipWjwg292vbzkHdzEqYqfTjDHtDhWQC+uz38W4drX2IUBUNHJM8Rxtu46+oAbSTuC6BmhExHvsV+blavqXqpXp08pysZkac5q8UTH7csN+PUvp2fmrftswsHN7MpM3S46O/fe6iP2jzfCxf1fkrbtC5h+1i/q/JVfxtD86+/oWLD1e6J2PCBwgU76aWko38a+VpifKAeLjicLPs4+E4jVq1C5N9VjE622KYBNA3Ocrmb3NJ5PaCFqVfCpGa3ou6KpwlB2krEhYy4DBMLv8ACu+yZck6qG4XXU6Q+I8K8sfx1xa5MR2z6XY/w/Nl187jvt2LwqIqTVCIiAIiIAiIgCIiAIiIAiIgPpy602I6S0sFxJK0u2ZGHO6/MQNnnsoyxLSCqnvxkzsh/UbyW25rN2+e61gXTLE/lRhUdid9WXJer9PBnc4jwhONxBEGjpSG57m6h3lcriGM1E/vsr3Do3s36LbBYCKiVSUtWatHB0KPYir8dX5v/GQREXg6QitulaN/crLqk7ghBlK06Zo39yxnPJ2leVIuXnVB3albc4naV5RCAiITzoDY6M/9/SeXH91r+EDxpW+Wb90xZmjEw/6hSAa/04/usThA8aVvlm/dMXZh+zzPmts+/X0rqzM0AteoO/LEL9RL7/YO5dVJU21j/wCrjdDZMvH9kX/Nd/gwhqwYXHLKbm2y5t75FzO6TNjgL6iFm4mj7TESS1y6DDrdoKbWWd/MsMlLmcYByc2QncHWvY+bWseSVdHo3gEsT6uCcAwvZHleNjyC7WN4cPyXLvl4svb+0D8gdqs0AkOtfYScuvtXPUwzppN5Xvyt+8jtoSjOUowztbws/TvMXEHgxSg7DG8f0lR0FI2NuIiGe3GFkpzNsQ6Owy3c3U43zc51i/VHLVo7PjuqS8Ohx7Vt/Ta/5fZo77SHxHhXlj+OuLXaaQ+I8K8s78dcWveI7ZobH+H5sqiIqTVCIiAIiIAiIgCIiAIiIAiIgOjReXSAbSrLqnmHeoJMhW3Sgb1jOkJ2leFJFy+6p5h3q06QnaV5RCAiIgCK0+do337FYfVHcLIDMJVp9Q0dfYsJzidpRCS6+pO7UrTnE7VRVQG00R8Y0flx9hThA8aV3lm/dsTRHxjR+XH2FOEDxpXeWb92xduH7PM+Z2z79fSurMrQVzQZ8zQ5v6G7TsI5fNrHaF3dFg2HyOD2zzQuBDshka0tcOi8t19t7qM9Gq9sT3tebB4aMx2Bzb2vzbSulklKz8TJ06zbimnbXw7jpwFJ1aCUJtNXvZ9U/REoVWkFLC0B0webAck53Hrdl1D6lH2KPh42ZrX8kvEsctieS4XLX7x4XbduzXq1DnHrXiyqrYp1dUjRwuzI4fNN3fhy/bvqX8QmbxJjac1uMeXWsLloFmg67cnabbtWpcKF1GJ1bWMcCRmLS0M33ItfsXLrtwCe629MrGVtqUd+EU7tXb5v95He6ReI8K8s78ZcYuz0i8R4V5Z34y4xTiO2dmx/h+bKoiKk1QiIgCIiAIiIAiIgCIiAIiIDZoiIQEXh8zRv7ljvquYd6Ay1bfO0b+5YT5CdpVEJL76o7hZWHPJ2lURAVVERAEREAVVRVQG00S8Y0f7wP7pwgeNK7yzfu2Jol4xo/wB4b/dSJj/BxHU1U1Sah7TI8OLBGCGkNDdRv8lduH7PM+Z2z79fSurIbVMg5gpV9yaL43J6JvrJ7k0XxuT0TfWV5kkVZBzJkHMFJruDGG5DamZ1jZxbA0hp5r5tZ6hchX2cFEJAIq5LeRHrakIsiKwFVSp7k0XxuT0TfWT3Jovjcnom+shJqNIvEeFeWd+MuMUi8ImGClw2gpmuLhHUFuYixddkp2DZtUdLhxHbPp9j/D82VREVJqhERAEREAREQBERAEREAREQGS+q5h3qw+UnaV5RAVVERAEREAREQBERAEREAVURAZGF1ghqIJzsjljefm35X1XX0JBUNka2RhDmOAcCDcEFfOJC2OE6QVlKMtPMQz4MjM0dgOxX0aqjkzJ2lgJV2pw1WVj6BVLqEhwhYn8JF6D/ACVfdDxPpxeg/wAlf7eBk/yvE8F5omMyxxANJsLkgWJzEkk2t4RJJNhr1rIb/wC1CR4QcU+FjHUIB+aqOEPE/hIvQf5J7eA/leJ4LzRNyKEfdCxP4SL0H+StVOnOJSAtMwaDquyMNPeSU9vAlbKxPBeZ0nC/ibHOpqVpBexxmfb9XUWtB7bnuUeJrJLnEucTcuJuSesr0uSpPflc+hweH9hSUPPxKIqovB1FEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBVVFVAZuC4VLVTsp4QMzsxu42a1rRclxANh5t4XTHg3qrOImpjlBLrTO5IHPyNWxZfBpHFHFVzungiqHMNNFxkjRk1Zi8gm9i4s+gr9IyloaZ9KauKSaqmiilkjdmEVISGuLnDZyTJrO999gKujCNk31MvEYqr7SUKb0suy3fvk79yjzuaPD9AqqWGObPBG17Q9jZJC1xYdYJAadoIO3eFbdoRUcY6JskD3tgdUuySEhkYNgDyfCOuw6jsUkYtWQPcCJMKdGxlm8e5rnMFtYGuwGrdzLi+Dush9l1vHSxRskimbmu2JhzSN97DvBFjcDcvTpwUlEphjMROnOpwV7bvF28ckc5Q6OTS0stZyGQMuMznEF7tmWMAHMbkN3azbnW7bwc1Vml8tOwlodkfMQ5t9xs21+wrKxHFBV1cNLSyQw0dNlkjdK7LHI+MiznA+Fc2AG0guO/V189fSnPNWuwyVrYjrZlklcRsaM1yRt1DnURpxf78z1XxeIg1bK+drXaX9q4N6t+RG0+h87G1T+NgLIGBz3tkcWl5bm4thy632LdWrwgtNh1DJPKyGFpc9xs1o7ySTsAFyT1KR3YdDJhcNJFV0kJe8VMzXTtPhXcI9R/VJYL/8AjCwtAYKemqazNV05kbEI4pC7LG4u1uc0uPKALQNXXzqPZreSLY46SpTlq1pk1lkk3rq3fwMEcGlWSQJaYuG1oldcdvIWFhmgtVNFx2aGNnGyMHGSFpLmuLXWs0i12nfuW/wqGHDWVMvsyCetmAgjcxwPFve7lPkN9Tc2VxJsOR1q7pHpFh8XE0RpxVRwRsDZBNZoflsfBvmdYAk/KPWp3IWu8ufkVfxOJc92H4lxUUslrlJpa2Wbzsc7X6BVcToBmhe6aXimhshPKyl5c67RyQGkki+5ZLuDioF71FGLXvedwtbbfkLodFNJYaiodJIYadkFMKemhc8BrQ863XNrmzGNsNgPWsbS3JJCGNfhYklmjaXRAcZrfdzi/wDUG8uPMRtKncha66nlYrE+0VObS4u3HPjbJa277nPUGgVTNE2YPp2scXZC+UjO0Gwe3knkm1xvtZazSHAH0ZY2SSF7nguAikLy0Cwu67Ra99XYVJ9DJGI4IamfCpYomMjuXNc4Na0Nu0ONgSAFFulE8L6yd9O1rIC8hgaLNIFgXAbg4gnzrzUhGMci/CYitVqtSeSz0y4LN2d+81ioqqipNMIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgKXS6IgKql0RBcJdVRBcKl0RCbi6IiEC6XVUQXHeqqiIAiIgCIiAIiIAiIgCIiAIiID/9k=" class="imgs">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobilestack">
+                <h1 class="foothead">Company</h1>
+                <ul class="footunorderlist">
+                    <li class="footlist">About</li>
+                    <li class="footlist">Blogs</li>
+                    <li class="footlist">Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobilestack">
+                <h1 class="foothead">Products</h1>
+                <ul class="footunorderlist">
+                    <li class="footlist">Computers</li>
+                    <li class="footlist">iPads</li>
+                    <li class="footlist">iPhones</li>
+                </ul>
+            </div>
+
+            <div class="col-3 mobilestack">
+                <h1 class="foothead">Learn More</h1>
+                <ul class="footunorderlist">
+                    <li class="footlist">Developers</li>
+                    <li class="footlist">Desiners</li>
+                    <li class="footlist">Hackers</li>
+                </ul>
+            </div>
+
+            <div class="col-3 mobilestack">
+                <h1 class="foothead">Support</h1>
+                <ul class="footunorderlist">
+                    <li class="footlist">Help</li>
+                    <li class="footlist">QA</li>
+                    <li class="footlist">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function dropdownMenu(){
+            var x  = document.getElementById("dropdownClick");
+            if(x.className === "navbar"){
+                x.className += " responsive";
+                // change navbar to navbar.responsive
+
+            }else{
+                x.className = "navbar"; 
+            }
+        }
+    </script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,800");
+
+html,
+body{
+    margin:0;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    background: #fff;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+}
+
+.btn{
+    width:100px;
+    height:100px;
+    background-color: #fafafa;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:2em;
+    margin-right:1em;
+    cursor: pointer;
+    transition:all 0.3s;
+    border-radius:10px;
+}
+i.fa{
+    font-size:44px;
+}
+
+#fb{
+    color: #006fff;
+    text-shadow: 0 0 30px #006fff;
+}
+
+#ig{
+    color: rgb(237, 80, 23);
+    text-shadow: 0 0 30px #ff5f40;
+
+}
+
+#tw{
+    color: #00acff;
+    text-shadow: 0 0 30px #00acff;
+}
+
+.fb-btn{
+    box-shadow: 0 20px 20px -17px rgba(3, 111, 253, 0.53);
+}
+
+.fb-btn:hover{
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+
+.ig-btn{
+    box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+
+.ig-btn:hover{
+    transform:scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(25,16,39,0.57);
+}
+
+.tw-btn{
+    box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+
+.tw-btn:hover{
+    transform:scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
+}
