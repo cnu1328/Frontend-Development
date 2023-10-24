@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+}
+html {
+    font-family : 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: inherit;
+    background-color: black;
+}
+
+.title {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    top: -4px;
+    right: 5px;
+    color: transparent;
+    text-shadow: 0 0 4px white;
+}
+
+.timer {
+    position: absolute;
+    margin: 0;
+    top: 20px;
+    right: 50%;
+    color: white;
+}
+
+p {
+    padding: 0;
+    margin: 5px;
+}
+
+.para {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.remember{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.instruct {
+    position: absolute;
+    top: 20%;
+    right: 32%;
+    background-color: white;
+    padding: 10px;
+    max-width: 500px;
+    min-height: 230px;
+    border-radius: 13px;
+    color: rgb(116, 108, 108);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.instruct:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 17px 0px rgba(247,239,247,0.63);
+}
+
+.instruct h1 {
+    color: rgb(33, 32, 32);
+    text-align: center;
+}
+
+.instruct .play {
+    padding: 10px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid rgb(47, 46, 46);
+    background-color: rgb(195, 191, 191);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer !important;
+    display: block;
+    margin: 30px auto;
+}
+.instruct .play:hover {
+    background-color: rgb(65, 131, 158);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgba(11, 210, 236, 0.4);
+    color: ghostwhite;
+}
