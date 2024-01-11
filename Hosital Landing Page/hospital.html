@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Xavier's Hospital</title>
+        <link rel="stylesheet" href="hospital.css"> <!--import CSS File-->
+        <link rel="shortcut icon" href="./Assets/xavier-logo.png" type="image/x-icon"> <!--To see the image on chrom's tab -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!--For Icons-->
+    </head>
+
+<body>
+    <div class="container">
+        <!-- Nav Bar -->
+
+        <nav>
+            <div class="nav-container">
+                <div class="nav-group">
+                    <div class="logo">
+                        <img src="./Assets/xavier-logo.png" alt="Hospital-Logo">
+                    </div>
+
+                    <div class="nav-items">
+                        <ul>
+                            <li>Home</li>
+                            <li>Products</li>
+                            <li>Pricing</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="quotation-button">
+                    <button class="getQuote">Get Quote Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main-container">
+                <div class="main-content">
+                    <h1>Meet the Best <br> Hospital</h1>
+                    <p>We know how large objects will act,<br> but things on a small scale.</p>
+                    <div class="main-buttons">
+                        <button class="getQuote Quote">Get Quote Now</button>
+                        <button class="getQuote">Learn More</button>
+                    </div>
+                </div>
+
+                <form action="">
+                    <div class="main-form">
+                        <h1>Book Appointment</h1>
+    
+                        <label for="firtName">Name *</label>
+                        <input type="text" name="name" id="FirstName" placeholder="Enter First Name" required>
+                        <br>
+
+                        
+    
+                        <label for="email">Email Address *</label>
+                        <input type="email" name="email" id="email" placeholder="E.g : example@gmail.com" required>
+                        <br>
+    
+                        <label for="department">Choose a department * </label>
+                        <select id="department" name="department" required>
+                            <option value="">Select a department</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="orthopedics">Orthopedics</option>
+                            <option value="oncology">Oncology</option>
+                            <option value="neurology">Neurology</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <!-- Add more department options as needed -->
+                        </select>
+                        <br>
+    
+                        <label for="time">Time *</label>
+                        <select name="time" id="time">
+                            <option value="">Select Time Slot</option>
+                            <option value="1">4:00 Available</option>
+                            <option value="2">6:00 Available</option>
+                            <option value="3">8:00 Available</option>
+                        </select><br>
+    
+                        <button>Book Appointment</button>
+    
+                    </div>
+                </form>
+            </div>
+
+            <!-- Feature cards -->
+            <div class="feature-cards">
+                <h1>Leading Madicine</h1>
+                <p>Problems trying to resolve the conflict between<br> the two major realms of classical physics: newtonian mechanics</p>
+                <div class="cards">
+                    <div class="card1">
+                        <div class="card-title">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <span>Emergency Case</span>
+                        </div>
+
+                        <div class="card-content">
+                            <ul>
+                                <li>The best products starts with Figma</li>
+                                <li>Design with Real Data</li>
+                                <li>Lightining fast prototyping</li>
+                                <li>Fastest way to organize</li>
+                                <li>Work at the speed of thought</li> 
+                            </ul>
+                            <p>Learn More...</p>
+                        </div>
+                    </div>
+
+                    <div class="card2">
+                        <div class="card-title">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <span>Cancer Care</span>
+                        </div>
+
+                        <div class="card-content">
+                            <ul>
+                                <li>The best products starts with Figma</li>
+                                <li>Design with Real Data</li>
+                                <li>Lightining fast prototyping</li>
+                                <li>Fastest way to organize</li>
+                                <li>Work at the speed of thought</li> 
+                            </ul>
+                            <p>Learn More...</p>
+                        </div>
+                    </div>
+
+                    <div class="card3">
+                        <div class="card-title">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <span>Health Queries</span>
+                        </div>
+
+                        <div class="card-content">
+                            <ul>
+                                <li>The best products starts with Figma</li>
+                                <li>Design with Real Data</li>
+                                <li>Lightining fast prototyping</li>
+                                <li>Fastest way to organize</li>
+                                <li>Work at the speed of thought</li> 
+                            </ul>
+                            <p>Learn More...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Rating Cards -->
+
+            <div class="rating-cards feature-cards">
+                <h1>Leading Medicine</h1>
+                <p>Problems trying to resolve the conflict between<br> the two major realms of classical physics: newtonian mechanics</p>
+
+                <div class="r-cards">
+                    <div class="r-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="reviews">
+                            Slate helps you see how many more days you need to work to reach your financial goal. 
+                        </div>
+
+                        <div class="reviewer">
+                            <img src="./Assets/user-2.png" alt="User">
+                        </div>
+                    </div>
+
+
+                    <div class="r-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="reviews">
+                            Slate helps you see how many more days you need to work to reach your financial goal. 
+                        </div>
+
+                        <div class="reviewer">
+                            <img src="./Assets/user-1.png" alt="User">
+                        </div>
+                    </div>
+
+
+                    <div class="r-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <div class="reviews">
+                            Slate helps you see how many more days you need to work to reach your financial goal. 
+                        </div>
+
+                        <div class="reviewer">
+                            <img src="./Assets/user-3.png" alt="User">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ SECTION -->
+            
+            <div class="faq-section">
+                <h1>FAQ</h1>
+                <p class="para">Problems trying to resolve the conflict between <br>the two major realms of Classical Physics Newtonian Mechanics</p>
+                <div class="faq-block">
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-sub-block">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <div class="faq-block-content">
+                            <p>The qucik fox jumps over the lazy dog</p>
+                            <p>Things on a very small scale behave like nothing</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PRICING SECTION -->
+
+            <div class="pricing">
+                <h1>Pricing</h1>
+                <p>Problems trying to resolve the conflict between<br> the two major realms of classical physics: Newtonian Mechanics</p>
+
+                <div class="pricing-cards">
+                    <!-- Price Card 1 -->
+
+                    <div class="pricing-card-1">
+                        <h1>FREE</h1>
+                        <p>Organize across all<br> apps by hand</p>
+
+                        <div class="price">
+                            <h1>0</h1>
+                            <div class="pricing-unit">
+                                <p>₹</p>
+                                <p>Per Month</p>
+                            </div>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle fa-2xl"></i>
+                            <p>1GB Cloud Storage</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle fa-2xl"></i>
+                            <p>Email & Community Support</p>
+                        </div>
+                        
+                        <div class="try-now-button">
+                            <button>Try For Free</button>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Card 02 -->
+
+                    <div class="pricing-card-2">
+                        <h1>STANDARD</h1>
+                        <p>Organize across all<br> apps by hand</p>
+
+                        <div class="price">
+                            <h1>9.99</h1>
+                            <div class="pricing-unit">
+                                <p>₹</p>
+                                <p>Per Month</p>
+                            </div>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>1GB Cloud Storage</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Email & Community Support</p>
+                        </div>
+                        
+                        <div class="try-now-button">
+                            <button>Try For Free</button>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Card 03 -->
+
+                    <div class="pricing-card-3">
+                        <h1>PREMIMUM</h1>
+                        <p>Organize across all<br> apps by hand</p>
+
+                        <div class="price">
+                            <h1>19.99</h1>
+                            <div class="pricing-unit">
+                                <p>₹</p>
+                                <p>Per Month</p>
+                            </div>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Unlimited Product Updates</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>1GB Cloud Storage</p>
+                        </div>
+
+                        <div class="plans-comparison">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                            <p>Email & Community Support</p>
+                        </div>
+                        
+                        <div class="try-now-button">
+                            <button>Try For Free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+
+            <div class="contact-section">
+
+                <div class="contact">
+                    <h1>Get In Touch</h1>
+                    <p>Your present is needed.</p>
+                </div>
+
+                <div class="subscribe">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button>Substribe</button>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer Section -->
+
+        <footer>
+            <div class="footer-container">
+
+                <div class="footer-block-1">
+                    <h2>Get In Touch</h2>
+                    <p>The quick fox jumps over<br> the lazy dog</p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #00b7ff;"></i>
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #00b7ff;"></i>
+                        <i class="fa-brands fa-twitter fa-2xl" style="color: #00b7ff;"></i>
+                    </div>
+                </div>
+
+                <div class="footer-block-2">
+                    <h2>Company Info</h2>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Career</li>
+                        <li>We are Hiring</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+
+                <div class="footer-block-3">
+                    <h2>Features</h2>
+                    <ul>
+                        <li>Business Marketing</li>
+                        <li>User Analytics</li>
+                        <li>Live Chat</li>
+                        <li>Unlimited Support</li>
+                    </ul>
+                </div>
+
+                <div class="footer-block-4">
+                    <h2>Resources</h2>
+                    <ul>
+                        <li>iOS & Android</li>
+                        <li>Watch a Demo</li>
+                        <li>Customers</li>
+                        <li>API</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>
