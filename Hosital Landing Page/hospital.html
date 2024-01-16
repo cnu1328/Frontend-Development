@@ -23,27 +23,27 @@
 
                     <div class="nav-items">
                         <ul>
-                            <li>Home</li>
-                            <li>Products</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#features">Products</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="quotation-button">
-                    <button class="getQuote">Get Quote Now <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="getQuote quote">Get Quote Now <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         </nav>
 
         <main>
-            <div class="main-container">
+            <div id="home" class="main-container">
                 <div class="main-content">
                     <h1>Meet the Best <br> Hospital</h1>
                     <p>We know how large objects will act,<br> but things on a small scale.</p>
                     <div class="main-buttons">
-                        <button class="getQuote Quote">Get Quote Now</button>
+                        <button class="getQuote Quote quote">Get Quote Now</button>
                         <button class="getQuote">Learn More</button>
                     </div>
                 </div>
@@ -88,8 +88,15 @@
                 </form>
             </div>
 
+            <div id="quoteModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <p id="quoteText"></p>
+                </div>
+            </div>
+
             <!-- Feature cards -->
-            <div class="feature-cards">
+            <div id="features" class="feature-cards">
                 <h1>Leading Madicine</h1>
                 <p>Problems trying to resolve the conflict between<br> the two major realms of classical physics: newtonian mechanics</p>
                 <div class="cards">
@@ -158,7 +165,7 @@
 
             <!-- Rating Cards -->
 
-            <div class="rating-cards feature-cards">
+            <div id='rating' class="rating-cards feature-cards">
                 <h1>Leading Medicine</h1>
                 <p>Problems trying to resolve the conflict between<br> the two major realms of classical physics: newtonian mechanics</p>
 
@@ -223,7 +230,7 @@
 
             <!-- FAQ SECTION -->
             
-            <div class="faq-section">
+            <div id="faq" class="faq-section">
                 <h1>FAQ</h1>
                 <p class="para">Problems trying to resolve the conflict between <br>the two major realms of Classical Physics Newtonian Mechanics</p>
                 <div class="faq-block">
@@ -305,7 +312,7 @@
 
             <!-- PRICING SECTION -->
 
-            <div class="pricing">
+            <div id='pricing' class="pricing">
                 <h1>Pricing</h1>
                 <p>Problems trying to resolve the conflict between<br> the two major realms of classical physics: Newtonian Mechanics</p>
 
@@ -446,7 +453,7 @@
 
             <!-- Contact Section -->
 
-            <div class="contact-section">
+            <div id="contact" class="contact-section">
 
                 <div class="contact">
                     <h1>Get In Touch</h1>
@@ -510,5 +517,7 @@
         </footer>
     
     </div>
+
+    <script src="hospital.js"></script>
 </body>
 </html>
