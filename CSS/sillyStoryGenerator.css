@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: rgb(235, 233, 233);
+}
+
+main {
+    display: block;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+fieldset {
+    border:none;
+}
+
+.silly-title {
+    
+    font-size: 30px;
+}
+
+label {
+    margin-left: 15px;
+    font-size: 1.3rem;
+}
+
+.generate {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.generate:hover {
+    color: ghostwhite;
+    background-color: rgb(80, 203, 206);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgba(11, 177, 199, 0.2);
+}
+
+.story {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.story-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+}

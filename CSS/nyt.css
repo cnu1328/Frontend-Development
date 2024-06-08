@@ -1,0 +1,191 @@
+body {
+    font-family: sans-serif;
+    background-color: #f7f4f4;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.controls, .results {
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+}
+
+label {
+    display: block;
+}
+
+/* Basic styling for the input */
+input {
+    margin-top: 8px;
+    min-width: 80%;
+    padding: 8px 8px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+  
+  /* Style when input is focused */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+  
+  /* Placeholder text style */
+input::placeholder {
+    color: #777;
+}
+
+  
+  /* Button-like input style */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transfrom 0.2s, box-shadow 0.2s;
+}
+  
+  /* Button-like input style on hover */
+button:hover {
+    font-weight: bold;
+    background-color: #0056b3;
+    box-shadow: 0 0 8px 3px #77a2d1;
+    transform: scale(1.1);
+}
+  
+
+form p:nth-of-type(1) {
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h2 a{
+    text-decoration: none;
+}
+h2 a:hover{
+    border-bottom: 3px solid blue;
+}
+
+
+article p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+article p.keywords {
+    line-height: 2;
+}
+
+nav { 
+    margin-bottom: 50px;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transfrom 0.2s, box-shadow 0.2s;
+}
+
+article:hover {
+    box-shadow: 0 0 8px 3px #3f4245;
+    transform: scale(1.025);
+}
+
+
+
+img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+    max-height: 100px;
+}
+
+span {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        display: block;
+    }
+
+    .results {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .wrapper {
+        width: 100%;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 0.8rem;
+    }
+    .prev {
+        width: 100%;
+    }
+    .next {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .keywords {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    article {
+        overflow: hidden;
+    }
+    
+    h2 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; /* Adds an ellipsis (...) to indicate truncated text */
+    }
+      
+
+}
+

@@ -1,0 +1,8 @@
+#map {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 2px;
+}

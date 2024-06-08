@@ -1,0 +1,35 @@
+<!DOCTYPE hmtl>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Story Generator</title>
+        <link rel="stylesheet" href="../CSS/sillyStoryGenerator.css">
+    </head>
+
+<body>
+    <main>
+        <h1 class="silly-title">Story Generator</h1>
+
+        <form>
+            <fieldset>
+                <label for="India">India : <input id="india" type="radio" class="setInput" name="radioGroup" value="india" required></label>
+                <label for="America">America : <input id="America" type="radio" class="setInput" name="radioGroup" value="america"></label>
+                <label for="Japan">Japan : <input id="Japan" type="radio" class="setInput" name="radioGroup" value="japan"></label>
+            </fieldset>
+        </form>
+
+        <button class="generate">Generate New Story</button>
+
+
+        <div class="story">
+            <h1 class="title"></h1>
+            <p class="story-paragraph"></p>
+        </div>
+
+    </main>
+
+    <script src="../JS/sillyStroyGenerator.js"></script>
+</body>
+</html>
